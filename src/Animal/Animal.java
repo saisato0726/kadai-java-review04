@@ -32,8 +32,8 @@ public class Animal {
 	}
 	
 	//話すメソッド
-	public void say(String name, int age) {
-		System.out.println(name + "です。" + age + "歳です。");
+	public void say() {
+		System.out.println(this.name + "です。" + this.age + "歳です。");
 	}
 
 }
